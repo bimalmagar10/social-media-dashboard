@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./sass/main.scss">
+  <title>Social Media Dashboard</title>
+</head>
+<body>
+  <div class="container">
+    <div class="dashboard">
+      <div class="dashboard__header">
+        <div class="dashboard__intro">
+          <div class="dashboard__intro--left">
+            <h1 class="heading__primary">Social Media dashboard</h1>
+            <p class="dashboard__count">Total Followers:23,004</p>
+          </div>
+          <div class="dashboard__intro--right">
+            <span class="dashboard__toggle-mode">Dark Mode</span>
+            <input type="checkbox" id="toggle" class="dashboard__input">
+            <label for="toggle" class="dashboard__toggle-btn"></label>
+           <!--  <a href="#" class="dashboard__toggle-btn"></a> -->
+          </div>
+        </div>
+        <div class="dashboard__card dashboard__facebook">
+          <div class="dashboard__account">
+            <img src="./images/icon-facebook.svg" alt="This is facebook's icon" class="dashboard__account--logo">
+            <span class="dashboard__account--name">@nathanf</span>
+          </div>
+          <div class="dashboard__followers">
+            <p class="dashboard__followers--count">1987</p>
+            <span class="dashboard__followers--text">Followers</span>
+          </div>
+          <div class="dashboard__status">
+            <img src="./images/icon-up.svg" alt="This is icon up" class="dashboard__status--icon">
+            <span class="dashboard__status--time increment">12 Today</span>
+          </div>
+        </div>
+        <div class="dashboard__card dashboard__twitter">
+          <div class="dashboard__account">
+            <img src="./images/icon-twitter.svg" alt="This is facebook's icon" class="dashboard__account--logo">
+            <span class="dashboard__account--name">@nathanf</span>
+          </div>
+          <div class="dashboard__followers">
+            <p class="dashboard__followers--count">1044</p>
+            <span class="dashboard__followers--text">Followers</span>
+          </div>
+          <div class="dashboard__status">
+            <img src="./images/icon-up.svg" alt="This is icon up" class="dashboard__status--icon">
+            <span class="dashboard__status--time increment">9 Today</span>
+          </div>
+        </div>
+        <div class="dashboard__card dashboard__instagram">
+          <div class="dashboard__account">
+            <img src="./images/icon-instagram.svg" alt="This is facebook's icon" class="dashboard__account--logo">
+            <span class="dashboard__account--name">@realnathanf</span>
+          </div>
+          <div class="dashboard__followers">
+            <p class="dashboard__followers--count">11k</p>
+            <span class="dashboard__followers--text">Followers</span>
+          </div>
+          <div class="dashboard__status">
+            <img src="./images/icon-up.svg" alt="This is icon up" class="dashboard__status--icon">
+            <span class="dashboard__status--time increment">1099 Today</span>
+          </div>
+        </div>
+        <div class="dashboard__card dashboard__youtube">
+          <div class="dashboard__account">
+            <img src="./images/icon-youtube.svg" alt="This is facebook's icon" class="dashboard__account--logo">
+            <span class="dashboard__account--name">@nathanf</span>
+          </div>
+          <div class="dashboard__followers">
+            <p class="dashboard__followers--count">8239</p>
+            <span class="dashboard__followers--text">Followers</span>
+          </div>
+          <div class="dashboard__status">
+            <img src="./images/icon-down.svg" alt="This is icon up" class="dashboard__status--icon">
+            <span class="dashboard__status--time decrement">144 Today</span>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard__overview">
+        <h2 class="heading__secondary dashboard__overview-heading">Overview &ndash; Today</h2>
+        <div class="dashboard__box dashboard__views">
+          <div class="dashboard__wrapper-1">
+            <h3 class="heading__tertiary">Page Views</h3>
+            <p class="dashboard__box--count">87</p>
+          </div>
+          <div class="dashboard__wrapper-2">
+            <img src="./images/icon-facebook.svg" alt="This is facebook's icon" class="dashboard__overview--icon">
+            <div class="dashboard__box--status">
+              <img src="./images/icon-up.svg" alt="This is wrappers's icon" class="dashboard__icon">
+              <span class="dashboard__box--percentage increment">3%</span>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__box dashboard__likes">
+          <div class="dashboard__wrapper-1">
+            <h3 class="heading__tertiary">Likes</h3>
+            <p class="dashboard__box--count">52</p>
+          </div>
+          <div class="dashboard__wrapper-2">
+            <img src="./images/icon-facebook.svg" alt="This is facebook's icon" class="dashboard__overview--icon">
+            <div class="dashboard__box--status">
+              <img src="./images/icon-down.svg" alt="This is wrappers's icon" class="dashboard__icon">
+              <span class="dashboard__box--percentage decrement">2%</span>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__box dashboard__likes">
+          <div class="dashboard__wrapper-1">
+            <h3 class="heading__tertiary">Likes</h3>
+            <p class="dashboard__box--count">5462</p>
+          </div>
+          <div class="dashboard__wrapper-2">
+            <img src="./images/icon-instagram.svg" alt="This is instagram's icon" class="dashboard__overview--icon">
+            <div class="dashboard__box--status">
+              <img src="./images/icon-up.svg" alt="This is wrappers's icon" class="dashboard__icon">
+              <span class="dashboard__box--percentage increment">2257%</span>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__box dashboard__views">
+          <div class="dashboard__wrapper-1">
+            <h3 class="heading__tertiary">Page Views</h3>
+            <p class="dashboard__box--count">52K</p>
+          </div>
+          <div class="dashboard__wrapper-2">
+            <img src="./images/icon-instagram.svg" alt="This is instagram's icon" class="dashboard__overview--icon">
+            <div class="dashboard__box--status">
+              <img src="./images/icon-up.svg" alt="This is wrappers's icon" class="dashboard__icon">
+              <span class="dashboard__box--percentage increment">1375%</span>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__box dashboard__views">
+          <div class="dashboard__wrapper-1">
+            <h3 class="heading__tertiary">Retweets</h3>
+            <p class="dashboard__box--count">117</p>
+          </div>
+          <div class="dashboard__wrapper-2">
+            <img src="./images/icon-twitter.svg" alt="This is twitter's icon" class="dashboard__overview--icon">
+            <div class="dashboard__box--status">
+              <img src="./images/icon-up.svg" alt="This is wrappers's icon" class="dashboard__icon">
+              <span class="dashboard__box--percentage increment">303%</span>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__box dashboard__likes">
+          <div class="dashboard__wrapper-1">
+            <h3 class="heading__tertiary">Likes</h3>
+            <p class="dashboard__box--count">507</p>
+          </div>
+          <div class="dashboard__wrapper-2">
+            <img src="./images/icon-twitter.svg" alt="This is twitter's icon" class="dashboard__overview--icon">
+            <div class="dashboard__box--status">
+              <img src="./images/icon-up.svg" alt="This is wrappers's icon" class="dashboard__icon">
+              <span class="dashboard__box--percentage increment">553%</span>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__box dashboard__likes">
+          <div class="dashboard__wrapper-1">
+            <h3 class="heading__tertiary">Likes</h3>
+            <p class="dashboard__box--count">107</p>
+          </div>
+          <div class="dashboard__wrapper-2">
+            <img src="./images/icon-youtube.svg" alt="This is youtube's icon" class="dashboard__overview--icon">
+            <div class="dashboard__box--status">
+              <img src="./images/icon-down.svg" alt="This is wrappers's icon" class="dashboard__icon">
+              <span class="dashboard__box--percentage decrement">19%</span>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__box dashboard__views">
+          <div class="dashboard__wrapper-1">
+            <h3 class="heading__tertiary">Total Views</h3>
+            <p class="dashboard__box--count">1407</p>
+          </div>
+          <div class="dashboard__wrapper-2">
+            <img src="./images/icon-youtube.svg" alt="This is youtube's icon" class="dashboard__overview--icon">
+            <div class="dashboard__box--status">
+              <img src="./images/icon-down.svg" alt="This is wrappers's icon" class="dashboard__icon">
+              <span class="dashboard__box--percentage decrement">12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Bimal Thapa Magar</a>.
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
